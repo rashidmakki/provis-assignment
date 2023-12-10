@@ -1,0 +1,39 @@
+.container-wrapper{
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+a.button-dark{
+  border-radius: 12px;
+  background-color: #2C2D5B;
+  color: #FFF;
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+a.button-light{
+  border-radius: 12px;
+  border: 1px solid #2C2D5B;
+  color: #2C2D5B;
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width < 1200px) {
+  a.button-dark, a.button-light{
+      padding: 0px;
+      font-size: 0.8px ;
+  }
+}

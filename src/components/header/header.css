@@ -1,0 +1,68 @@
+.brand-name{
+    color: var(--simblue, #2C2D5B);
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.brand-part-name{
+    color: #F67366;
+    font-weight: 900;
+}
+.link-style{
+    color: var(--black, #141414);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.nav-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 62.5px;
+}
+
+a.request-btn{
+    border-radius: 12px;
+    border: 1px solid #2C2D5B;
+    color: #2C2D5B;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+a.join-btn{
+  border-radius: 12px;
+  background-color: #2C2D5B;
+  color: #FFF;
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width:900px) {
+    nav > .container{
+       justify-content: flex-start !important;
+    }
+
+    div > ul.navbar-nav{
+        align-items: flex-start !important;
+    }
+    .navbar-collapse > div{
+        justify-content: flex-start !important;
+    }
+}

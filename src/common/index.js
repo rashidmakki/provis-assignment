@@ -1,0 +1,1 @@
+export const headerLinkNames = ["Company", "Services","Solutions","Industries","Insights","News and Media"]
